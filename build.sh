@@ -26,9 +26,7 @@ syncFiles ${currentDir} ${distFolder} "${syncOptions[@]}"
 unset syncOptions
 
 logInfo "Copy src content in dist"
-syncOptions=(-a)
-syncFiles "${currentDir}/src" ${distFolder} "${syncOptions[@]}"
-unset syncOptions
+npm run tsc
 
 logInfo "Generate npm package (tgz file)"
 cd ${distFolder} > /dev/null

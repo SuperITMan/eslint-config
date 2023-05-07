@@ -1,4 +1,4 @@
-module.exports = {
+export = {
 	overrides: [
 		{
 			files: ["*.ts"],

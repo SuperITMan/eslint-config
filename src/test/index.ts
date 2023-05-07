@@ -18,6 +18,6 @@ module.exports = {
 		"jsdoc/newline-after-description": "error",
 		// FIXME Why using `no-useless-constructor` for spec files and not `@typescript-eslint/no-useless-constructor` ?
 		"no-useless-constructor": "error",
-		"@typescript-eslint/no-useless-constructor": "off",
+		"@typescript-eslint/no-useless-constructor": "off"
 	}
 };
